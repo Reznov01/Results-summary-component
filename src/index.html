@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body class="bg-gray-100 font-haken py-8">
+    <section
+      class="w-[90%] max-w-md mx-auto bg-white shadow-2xl md:flex md:max-w-4xl md:rounded-2xl"
+    >
+      <article
+        class="bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:flex md:flex-col md:justify-center"
+      >
+        <p class="text-Light-lavender text-xl font-bold">Your Result</p>
+        <div
+          class="w-36 aspect-square bg-gradient-to-b from-Violet-blue to-Persian-blue rounded-full mx-auto my-8 flex flex-col justify-center md:w-56"
+        >
+          <p class="text-white text-5xl font-bold mb-2 md:text-7xl">76</p>
+          <p class="font-bold text-Light-lavender">of 100</p>
+        </div>
+        <h3 class="text-3xl mb-4 font-bold">Great</h3>
+        <p class="text-Light-lavender">
+          you scored higher than 65% of the people who have taken these tests.
+        </p>
+      </article>
+      <article class="p-10 flex flex-col gap-6 md:w-1/2">
+        <h3 class="text-xl font-bold">Summary</h3>
+        <div class="bg-Light-red/10 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-reaction.svg" />
+          <p class="ml-3 text-Light-red text-lg">Reaction</p>
+          <p class="ml-auto font-bold text-Dark-gray-blue">
+            80 <span class="text-Dark-gray-blue/70">/100</span>
+          </p>
+        </div>
+        <div
+          class="bg-Orangey-yellow/10 rounded-xl flex py-4 px-6 items-center"
+        >
+          <img src="../assets/images/icon-memory.svg" />
+          <p class="ml-3 text-Orangey-yellow text-lg">Memory</p>
+          <p class="ml-auto font-bold text-Dark-gray-blue">
+            92 <span class="text-Dark-gray-blue/70">/100</span>
+          </p>
+        </div>
+        <div class="bg-Green-teal/10 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-verbal.svg" />
+          <p class="ml-3 text-Green-teal text-lg">Verbal</p>
+          <p class="ml-auto font-bold text-Dark-gray-blue">
+            61 <span class="text-Dark-gray-blue/70">/100</span>
+          </p>
+        </div>
+        <div class="bg-Cobalt-blue/10 rounded-xl flex py-4 px-6 items-center">
+          <img src="../assets/images/icon-visual.svg" />
+          <p class="ml-3 text-Cobalt-blue text-lg">Visual</p>
+          <p class="ml-auto font-bold text-Dark-gray-blue">
+            72 <span class="text-Dark-gray-blue/70">/100</span>
+          </p>
+        </div>
+        <a href="#">
+          <button
+            class="rounded-full bg-Dark-gray-blue w-full text-2xl p-3 text-white"
+          >
+            Continue
+          </button>
+        </a>
+      </article>
+    </section>
+  </body>
+</html>
